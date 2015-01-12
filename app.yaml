@@ -1,0 +1,37 @@
+application: crowd-sourcing-report
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+libraries: 
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
+- name: matplotlib
+  version: latest
+- name: pycrypto
+  version: latest
+
+
+handlers:
+- url: /js
+  static_dir: js
+- url: /font-awesome
+  static_dir: font-awesome
+- url: /css
+  static_dir: css
+- url: /fonts
+  static_dir: fonts
+- url: /img
+  static_dir: img
+- url: /mail
+  static_dir: mail
+- url: /less
+  static_dir: less
+- url: /Content
+  static_dir: Content
+- url: /.*
+  script: main.app
+
