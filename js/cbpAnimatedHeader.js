@@ -8,6 +8,7 @@
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
+var style;
 var cbpAnimatedHeader = (function() {
 
 	var docElem = document.documentElement,
@@ -26,11 +27,17 @@ var cbpAnimatedHeader = (function() {
 
 	function scrollPage() {
 		var sy = scrollY();
+		
+		var newStyle;
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
+			style = document.getElementById("logo").style;
+			newStyle = style + "display: none;";
+			document.getElementById("logo").style = newStyle;
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
+			document.getElementById("logo").style = style;
 		}
 		didScroll = false;
 	}
