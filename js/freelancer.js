@@ -35,3 +35,13 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+function stylizeMenu(){
+	var menu = document.getElementsByClassName("menu");
+	
+	addEventListloca
+	for(var i=0;i<menu.length;i++){
+		menu[i].class = menu[i].class + " animate";
+	}
+}
+
