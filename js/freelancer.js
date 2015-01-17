@@ -5,7 +5,13 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
+$('#logo').height($('#navbar').height());
+
+$(window).scroll(function() {
+  $('#logo').height($('#navbar').height());
+});
+
+$(function() {0
     $('body').on('click', '.page-scroll a', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
