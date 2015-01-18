@@ -31,13 +31,12 @@ var cbpAnimatedHeader = (function() {
 		var newStyle;
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
-			style = document.getElementById("logo").style;
-			newStyle = style + "display: none;";
-			document.getElementById("logo").style = newStyle;
+			
+			
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
-			document.getElementById("logo").style = style;
+			
 		}
 		didScroll = false;
 	}
