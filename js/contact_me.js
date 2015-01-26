@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "/",
                 type: "POST",
                 data: {
                     name: name,
@@ -27,6 +27,7 @@ $(function() {
                     message: message
                 },
                 cache: false,
+
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
@@ -39,7 +40,8 @@ $(function() {
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                },
+                }, 
+
                 error: function() {
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
