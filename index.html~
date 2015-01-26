@@ -97,7 +97,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 portfolio-item">
-                    <a href="#web" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -107,7 +107,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 portfolio-item">
-                    <a href="#desktop" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -117,7 +117,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 portfolio-item">
-                    <a href="#mobile" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -141,7 +141,7 @@
             </div>
             <div class="row">
                 <div class="col-md-3 col-sm-6 portfolio-item" style="border-radius: 50%">
-                    <a href="#vidit" class="portfolio-link" data-toggle="modal" style="border:0px solid black; border-radius: 50%">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal" style="border:0px solid black; border-radius: 50%">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -151,7 +151,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="#tanay" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -161,7 +161,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="#amey" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -171,7 +171,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="#anuja" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -286,7 +286,7 @@
     </div>
 
     <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="web" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -309,7 +309,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="desktop" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -333,7 +333,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="mobile" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -357,7 +357,7 @@
         </div>
     </div>
     
-    <div class="portfolio-modal modal fade" id="vidit" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -394,7 +394,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="tanay" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -428,7 +428,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="amey" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -465,7 +465,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="anuja" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
